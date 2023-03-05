@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spcbbg"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/profilestyle">
+<!--MEMBER NAME-->
+        <TextView
+            android:id="@+id/membername"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/mainTxtColor"
+            android:layout_marginTop="10dp"
+            >
+        </TextView>
+<!--MEMBER CODE-->
+        <TextView
+            android:id="@+id/membercode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member Code"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="SPCB Member"></TextView>
+<!--MEMBER BIO-->
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bio mo Here"
+            android:layout_marginTop="1dp"
+            android:textAlignment="center">
+
+        </TextView>
+<!--DELETE BIO-->
+        <ImageView
+            android:id="@+id/deletebio"
+            android:layout_marginTop="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="160dp"
+            android:background="@drawable/trashicon">
+        </ImageView>
+<!--UPDATE BIO-->
+
+        <ImageView
+            android:id="@+id/updatebio"
+            android:layout_marginTop="-20dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="130dp"
+            android:background="@drawable/updateicon">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/profilestyle">
+<!--USERNAME-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+
+        </TextView>
+<!--PASSWORD-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:inputType="textPassword"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+            <ImageView
+                android:id="@+id/updatepassword"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/updateicon"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="-20dp"></ImageView>
+
+<!--STREET-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+<!--BARANGAY-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barangay: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/barangay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="barangay"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+<!--PROVINCE-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City: "
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/mainTxtColor"
+                android:textSize="18sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="city"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="-20dp">
+            </TextView>
+<!--PROVINCE-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Province: "
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/mainTxtColor"
+                android:textSize="18sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="city"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="-20dp">
+            </TextView>
+<!--ZIPCODE-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zip Code: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/zipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zipcode"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+<!--CONTACT NUMBER-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No.:"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/contactnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+<!--BIRTHDATE-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthdate: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="birthdate"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+<!--MARITAL STATUS-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marital Status: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/maritalstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marital"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+
+<!--OCCUPATION-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupation: "
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mainTxtColor"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="occupation"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="-20dp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="GO BACK"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonupdate">
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    OWN COLORS-->
+    <color name="indigo">#745BCC</color>
+    <color name="spcbViolet">#4E51F4</color>
+    <color name="headerViolet">#C5C6D8</color>
+    <color name="mainTxtColor">#363636</color>
+    <color name="menuColor">#504470</color>
+    <color name="buttonAction">#7579A3</color>
+    <color name="buttonBack">#9295B7</color>
+    <color name="buttonlogin">#4742FE</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SPCB</string>
+    a
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_new_password">Enter your New Password</string>
+    <string name="type_your_new_bio">Type your New Bio</string>
+</resources>

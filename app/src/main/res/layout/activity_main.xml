@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spcbbg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Samahang Pangkabuhayan Coop (Credit) ng Bayan"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/mainTxtColor"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISION:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/mainTxtColor"
+        android:layout_marginTop="25sp"
+        android:layout_marginStart="50dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/mainTxtColor"
+        android:text="Isang Matatag, Mapagkakatiwalaan at may Pagkakaisa ng Kooperatiba na Makatutugon sa Pangangailangan ng bawat Kasapi at Kabalikat sa Pag- unlad ng Kabuhayan.">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISSION:"
+        android:textStyle="bold"
+        android:textColor="@color/mainTxtColor"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginStart="50dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/mainTxtColor"
+        android:textSize="18sp"
+        android:text="Makatulong na Mapataas ang Antas ng Pamumuhay pagbibigay ng Kaalaman para sa mga Programang Pangkabuhayan tungo sa Pag-unlad ng mga Kasapi.">
+
+    </TextView>
+
+</LinearLayout>
